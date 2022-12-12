@@ -38,12 +38,12 @@ function renderMovies(data) {
 function movieDetails(movie) {
     const movieDetails = document.getElementById('show-movie');
     movieDetails.innerHTML =`
-    <h2>Title: ${movie.title}</h2>
-    <p> RunTime: ${movie.runtime} minutes</p>
-    <p> Capacity: ${movie.capacity}</p>
-    <p> Show Time: ${movie.showtime}</p>
+    <h2> Title: ${movie.title}</h2>
+    <p id= "yolo">RunTime: ${movie.runtime} minutes</p>
+    <p id = "yolo">Capacity: ${movie.capacity}</p>
+    <p id = "yolo">Show Time: ${movie.showtime}</p>
     <img id = "images" src="${movie.poster}">
-    <p> ${movie.description}</p>
+    <p id = "desc">${movie.description}</p>
     <p id = "tickets">Tickets Available: ${movie.tickets_sold}</p>
     <ul id ="users"><ul>
     <button id= "buy">Buy Tickets</button>

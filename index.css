@@ -16,8 +16,15 @@ input[type="Buy Tickets"], button {
   border-radius: 6px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   
+  
 }
+#desc{
+  font-style: italic;
+  font-size: large;
+  padding-right: 2mm;
+  text-align: justify;
 
+}
 
 #images {
   display: block;
@@ -29,6 +36,15 @@ input[type="Buy Tickets"], button {
 h1{
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: rgb(165, 65, 42);
-  padding: 2mm;
-  
+  padding: 2mm
+    
+}
+
+h2{
+  font-style: italic;
+  margin-left: 5mm;
+}
+
+#yolo{
+  margin-left: 50mm;
 }
