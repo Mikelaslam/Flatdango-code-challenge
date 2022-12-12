@@ -42,7 +42,7 @@ function movieDetails(movie) {
     <p> RunTime: ${movie.runtime} minutes</p>
     <p> Capacity: ${movie.capacity}</p>
     <p> Show Time: ${movie.showtime}</p>
-    <img src="${movie.poster}">
+    <img id = "images" src="${movie.poster}">
     <p> ${movie.description}</p>
     <p id = "tickets">Tickets Available: ${movie.tickets_sold}</p>
     <ul id ="users"><ul>
