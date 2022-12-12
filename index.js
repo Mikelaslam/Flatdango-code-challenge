@@ -51,15 +51,6 @@ function movieDetails(movie) {
      `
     buyTicket(movie)
 }
-// //Buying the ticket and displaying the remaining tickets
-function buyTicket(movie) {
-    const buyButton = document.getElementById('buy')
-    buyButton.addEventListener('click', function(e) {
-        e.preventDefault()
-        const tickets = document.getElementById('tickets')
-    
-    })
-}
 
 
 
