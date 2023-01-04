@@ -1,6 +1,4 @@
 
-
-
 document.addEventListener('DOMContentLoaded', function() {
     fetchMovies();
     movieDetails();
